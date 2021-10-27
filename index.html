@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <section class="wrapper">
+<div class="container">
+<div class="form-content">
+    <form>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="firstName"><h6>Name<span class="red">*</span></h6></label>
+                    <input type="text" class="form-control" id="firstName" placeholder="">
+                    <small id="" class="form-text text-muted">First</small>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label class="lastname-label">.</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="">
+                    <small id="" class="form-text text-muted">Last</small>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-12">
+        <div class="form-group">
+          <label for="email"><h6>Email<span class="red">*</span></h6></label>
+          <input type="email" class="form-control" id="email" placeholder="Password">
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+        <div class="form-group">
+          <label for="email"><h6>Your Experience<span class="red">*</span></h6></label>
+          <div><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+          <p>Overall how would you rate you experience with us?</p>
+        </div>
+    </div>
+    </div>
+    <h6>How Satisfied are you with<span class="red">*</span></h6>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" class="text-center">Very Unsatisfied</th>
+            <th scope="col" class="text-center">Unsatisfied</th>
+            <th scope="col" class="text-center">Neutral</th>
+            <th scope="col" class="text-center">Satisfied</th>
+            <th scope="col" class="text-center">Very Satisfied</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Purchase</th>
+            <td class="text-center"><div class="form-check">
+                <input class="form-check-input" type="radio" name="radio1" id="radio1" value="option1" checked>
+              </div></td>
+            <td class="text-center"> 
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio2" value="option2">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio3" value="option3">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio4" value="option4">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio5" value="option5">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Service</th>
+            <td class="text-center"><div class="form-check">
+                <input class="form-check-input" type="radio" name="radio1" id="radio6" value="option6" checked>
+              </div></td>
+            <td class="text-center"> 
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio7" value="option7">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio8" value="option8">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio9" value="option9">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio10" value="option10">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Company Overall</th>
+            <td class="text-center"><div class="form-check">
+                <input class="form-check-input" type="radio" name="radio1" id="radio11" value="option11" checked>
+              </div></td>
+            <td class="text-center"> 
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio12" value="option12">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio13" value="option13">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio14" value="option14">
+            </td>
+            <td class="text-center">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="radio15" value="option15">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h6>How likely are you to<span class="red">*</span></h6>
+      <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col" class="text-center">Very Unlikely</th>
+              <th scope="col" class="text-center">Unlikely</th>
+              <th scope="col" class="text-center">Neutral</th>
+              <th scope="col" class="text-center">likely</th>
+              <th scope="col" class="text-center">Very likely</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Buy from us again</th>
+              <td class="text-center"><div class="form-check">
+                  <input class="form-check-input" type="radio" name="radio1" id="radio16" value="option16" checked>
+                </div></td>
+              <td class="text-center"> 
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio17" value="option17">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio18" value="option18">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio19" value="option19">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio20" value="option20">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Recommended our <br> product to others</th>
+              <td class="text-center"><div class="form-check">
+                  <input class="form-check-input" type="radio" name="radio1" id="radio21" value="option21" checked>
+                </div></td>
+              <td class="text-center"> 
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio22" value="option22">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio23" value="option23">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio24" value="option24">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio25" value="option25">
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Recommended our <br> company to others</th>
+              <td class="text-center"><div class="form-check">
+                  <input class="form-check-input" type="radio" name="radio1" id="radio26" value="option26" checked>
+                </div></td>
+              <td class="text-center"> 
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio27" value="option27">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio28" value="option28">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio29" value="option29">
+              </td>
+              <td class="text-center">
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio1" id="radio30" value="option30">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="row">
+            <div class="col-lg-12">
+            <div class="form-group">
+              <label for="email"><h6>Additional comments or suggestions<span class="red">*</span></h6></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+</div>
+</div>
+    </section>
+</body>
+</html>
